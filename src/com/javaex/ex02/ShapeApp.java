@@ -16,6 +16,20 @@ public class ShapeApp {
 		Shape t3 = new Triangle("빨강", "빨강", 15, 15);
 		System.out.println("================");
 		
+		/*
+		-예상 출력-
+		생성자 Shape(2) 실행
+		================
+		생성자 Shape(0) 실행
+		생성자 Triangle(0) 실행
+		================
+		생성자 Shape(2) 실행
+		생성자 Triangle(2) 실행
+		================
+		생성자 Shape(2) 실행
+		생성자 Triangle(4) 실행
+		================
+		*/
 	}
 
 }
